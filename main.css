@@ -1,0 +1,156 @@
+/* BASIC STYLES */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+header {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+/* NAV BAR */
+#nav_bar {
+  float: right;
+    font-size: 13px;
+}
+
+#nav_bar li {
+  display: inline-block;
+  padding: 8px;
+}
+
+#nav_bar #sign_in {
+  background: #4887ef; 
+  margin-right: 25px;
+  padding: 7px 15px;
+  border-radius: 3px; 
+  font-weight: bold;
+}
+
+.nav-links {
+  color: #404040;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li.nav-links a:hover {
+  text-decoration: underline;
+}
+
+#sign_in:hover { 
+  box-shadow: 1px 1px 5px #999;
+}
+
+#sign_in {
+  color: #fff;
+}
+
+/* GOOGLE AREA */
+img{
+    max-width: auto;
+    height: 100px;
+}
+
+.google #google_logo {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 112px;
+    padding-bottom: 20px;
+}
+
+.form {
+  text-align: center;
+}
+
+.form #form-search {
+  padding: 0 8px;
+}
+
+#form-search{
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+}
+
+img #form-search {
+    background-size: 24px;
+    height: 24px;
+    width: 24px;
+    vertical-align: middle; 
+}
+.buttons {
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 300px;
+}
+.buttons>input {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer  {
+  background: #f2f2f2;
+  border-top: solid 2px #e4e4e4;
+  bottom: 0;
+  padding-bottom: 0;
+  width: 100%;
+}
+#foot {
+    background: #f2f2f2;
+    border-bottom: solid 2px #e4e4e4;
+}
+#footBottom {
+    background: #f2f2f2;
+    display: block;
+}
+footer ul li {
+  display: inline;
+  color: #666666;
+  font-size: 14px;
+  padding: 13px;
+    background: #f2f2f2;
+}
+
+footer ul {
+    float: left;
+    padding: 1px;
+    background: #f2f2f2;
+}
+.footer-top {
+    color: #666666;
+    font-size: 15px;
+}
+.footer-top p{
+    padding-left: 30px;
+}
+.footer-left {
+    background: #f2f2f2;
+}
+.footer-right {
+  float: right;
+    background: #f2f2f2;
+}
